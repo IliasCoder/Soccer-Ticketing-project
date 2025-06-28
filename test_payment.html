@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Payment</title>
+</head>
+<body>
+    <h2>Test Payment Form</h2>
+    <button onclick="testPayment()">Test Payment</button>
+    <div id="result"></div>
+
+    <script>
+        function testPayment() {
+            const testData = {
+                customerInfo: {
+                    username: "Test User",
+                    email: "test@example.com",
+                    phone: "0612345678"
+                },
+                cartItems: [{
+                    matchId: "1",
+                    matchName: "PSG vs Marseille",
+                    categoryId: "standard",
+                    sectionId: "A1",
+                    seatNumber: "123",
+                    price: 45
+                }],
+                totalAmount: 45
+            };
+
+            fetch('payment_debug.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(testData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerHTML = '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+            })
+            .catch(error => {
+                document.getElementById('result').innerHTML = 'Error: ' + error.message;
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html> 

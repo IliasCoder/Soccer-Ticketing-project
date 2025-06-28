@@ -1,0 +1,214 @@
+{
+    "timestamp": "2025-05-30 17:32:14",
+    "type": "raw_input",
+    "data": {
+        "raw": "{\"customerInfo\":{\"name\":\"Test User\",\"email\":\"test@example.com\",\"phone\":\"0612345678\"},\"cartItems\":[{\"matchId\":\"1\",\"matchName\":\"\\u00c9quipe A vs \\u00c9quipe B\",\"categoryId\":\"standard\",\"sectionId\":\"A1\",\"seatNumber\":\"123\",\"price\":45}],\"totalAmount\":45}"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 17:32:14",
+    "type": "headers",
+    "data": {
+        "Host": "localhost",
+        "Accept": "*\/*",
+        "Content-Type": "application\/json",
+        "Content-Length": "248"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 17:32:14",
+    "type": "decoded_data",
+    "data": {
+        "customerInfo": {
+            "name": "Test User",
+            "email": "test@example.com",
+            "phone": "0612345678"
+        },
+        "cartItems": [
+            {
+                "matchId": "1",
+                "matchName": "\u00c9quipe A vs \u00c9quipe B",
+                "categoryId": "standard",
+                "sectionId": "A1",
+                "seatNumber": "123",
+                "price": 45
+            }
+        ],
+        "totalAmount": 45
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:51:20",
+    "type": "raw_input",
+    "data": {
+        "raw": "{\"customerInfo\":{\"name\":\"Test User\",\"email\":\"test@example.com\",\"phone\":\"0612345678\"},\"cartItems\":[{\"matchId\":\"1\",\"matchName\":\"\\u00c9quipe A vs \\u00c9quipe B\",\"categoryId\":\"standard\",\"sectionId\":\"A1\",\"seatNumber\":\"123\",\"price\":45}],\"totalAmount\":45}"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:51:20",
+    "type": "headers",
+    "data": {
+        "Host": "localhost",
+        "Accept": "*\/*",
+        "Content-Type": "application\/json",
+        "Content-Length": "248"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:51:20",
+    "type": "decoded_data",
+    "data": {
+        "customerInfo": {
+            "name": "Test User",
+            "email": "test@example.com",
+            "phone": "0612345678"
+        },
+        "cartItems": [
+            {
+                "matchId": "1",
+                "matchName": "\u00c9quipe A vs \u00c9quipe B",
+                "categoryId": "standard",
+                "sectionId": "A1",
+                "seatNumber": "123",
+                "price": 45
+            }
+        ],
+        "totalAmount": 45
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:52:09",
+    "type": "raw_input",
+    "data": {
+        "raw": "{\"customerInfo\":{\"name\":\"Test User\",\"email\":\"test@example.com\",\"phone\":\"0612345678\"},\"cartItems\":[{\"matchId\":\"1\",\"matchName\":\"\\u00c9quipe A vs \\u00c9quipe B\",\"categoryId\":\"standard\",\"sectionId\":\"A1\",\"seatNumber\":\"123\",\"price\":45}],\"totalAmount\":45}"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:52:09",
+    "type": "headers",
+    "data": {
+        "Host": "localhost",
+        "Accept": "*\/*",
+        "Content-Type": "application\/json",
+        "Content-Length": "248"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:52:09",
+    "type": "decoded_data",
+    "data": {
+        "customerInfo": {
+            "name": "Test User",
+            "email": "test@example.com",
+            "phone": "0612345678"
+        },
+        "cartItems": [
+            {
+                "matchId": "1",
+                "matchName": "\u00c9quipe A vs \u00c9quipe B",
+                "categoryId": "standard",
+                "sectionId": "A1",
+                "seatNumber": "123",
+                "price": 45
+            }
+        ],
+        "totalAmount": 45
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:56:15",
+    "type": "raw_input",
+    "data": {
+        "raw": ""
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:56:15",
+    "type": "headers",
+    "data": {
+        "Host": "localhost",
+        "Connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A\/Brand\";v=\"99\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/136.0.0.0 Safari\/537.36 Edg\/136.0.0.0",
+        "Accept": "text\/html,application\/xhtml+xml,application\/xml;q=0.9,image\/avif,image\/webp,image\/apng,*\/*;q=0.8,application\/signed-exchange;v=b3;q=0.7",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-User": "?1",
+        "Sec-Fetch-Dest": "document",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Accept-Language": "fr,fr-FR;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:56:15",
+    "type": "decoded_data",
+    "data": null
+}
+---
+{
+    "timestamp": "2025-05-30 18:56:15",
+    "type": "validation_errors",
+    "data": [
+        "Donn\u00e9es JSON invalides: No error",
+        "Information client manquante",
+        "Panier vide ou invalide",
+        "Montant total invalide"
+    ]
+}
+---
+{
+    "timestamp": "2025-05-30 18:57:49",
+    "type": "raw_input",
+    "data": {
+        "raw": "{\"customerInfo\":{\"username\":\"Test User\",\"email\":\"test@example.com\",\"phone\":\"0612345678\"},\"cartItems\":[{\"matchId\":\"1\",\"matchName\":\"\\u00c9quipe A vs \\u00c9quipe B\",\"categoryId\":\"standard\",\"sectionId\":\"A1\",\"seatNumber\":\"123\",\"price\":0}],\"totalAmount\":0}"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:57:49",
+    "type": "headers",
+    "data": {
+        "Host": "localhost",
+        "Accept": "*\/*",
+        "Content-Type": "application\/json",
+        "Content-Length": "250"
+    }
+}
+---
+{
+    "timestamp": "2025-05-30 18:57:49",
+    "type": "decoded_data",
+    "data": {
+        "customerInfo": {
+            "username": "Test User",
+            "email": "test@example.com",
+            "phone": "0612345678"
+        },
+        "cartItems": [
+            {
+                "matchId": "1",
+                "matchName": "\u00c9quipe A vs \u00c9quipe B",
+                "categoryId": "standard",
+                "sectionId": "A1",
+                "seatNumber": "123",
+                "price": 0
+            }
+        ],
+        "totalAmount": 0
+    }
+}
+---
