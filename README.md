@@ -226,21 +226,6 @@ We welcome contributions! Please feel free to submit a Pull Request. For major c
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
-
-- **TCPDF** - For PDF generation capabilities
-- **SendGrid** - For reliable email delivery
-- **Composer** - For dependency management
-- **Modern Web Standards** - For responsive design patterns
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/yourusername/ticket-booking-platform/issues) page
-2. Review the [Backend Learning Guide](Backend_Learning_Guide.md)
-3. Create a new issue with detailed information
-
 ## 🚀 Deployment
 
 ### Production Checklist
